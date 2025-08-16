@@ -1,4 +1,4 @@
-import { IconBrandGithub, IconBrandGitlab } from '@tabler/icons-react'
+import { IconBrandGithub, IconBrandGitlab, IconBrandGooglePlay, IconBrandInstagram, IconBrandLinkedin } from '@tabler/icons-react'
 import Link from 'next/link'
 import React from 'react'
 import { Button } from './ui/button'
@@ -11,7 +11,10 @@ const Navbar = () => {
           <h1 className='text-xl md:text-2xl font-bold'>DevFolio</h1>
         </div>
         <div className='flex gap-4'>
-            <Button size="sm" variant="outline">Github <IconBrandGithub className="w-4 h-4" /></Button>
+            <Link href="https://github.com/aushin19" target='_blank'><IconBrandGithub className="w-6 h-6" /></Link>
+            <Link href="https://github.com/aushin19" target='_blank'><IconBrandLinkedin className="w-6 h-6" /></Link>
+            <Link href="https://github.com/aushin19" target='_blank'><IconBrandGooglePlay className="w-6 h-6" /></Link>
+            <Link href="https://github.com/aushin19" target='_blank'><IconBrandInstagram className="w-6 h-6" /></Link>
         </div>
     </nav>
   )

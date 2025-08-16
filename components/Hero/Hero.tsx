@@ -19,7 +19,7 @@ const Hero = () => {
             {/* Main Content Layer */}
             <div className="relative z-10 flex flex-col items-center justify-center gap-4">
                 <Badge className='mb-4' variant="outline"><IconStar /> Software Engineer</Badge>
-                <motion.h1 className='text-4xl md:text-6xl'>Hi, I'm Shivam!</motion.h1>
+                <motion.h1 className='text-5xl md:text-7xl'>Hi, I'm Shivam!</motion.h1>
                 <div className='flex flex-col md:text-xl items-center justify-center text-center px-4 md:px-0'>
                     <p className='text-muted-foreground'>Crafting weird stuff 'cause I’m too lazy so I automate</p>
                     <p className='text-muted-foreground'>Laziness, but make it look like innovation</p>
