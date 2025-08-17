@@ -12,9 +12,8 @@ const Navbar = () => {
         </div>
         <div className='flex gap-4'>
             <Link href="https://github.com/aushin19" target='_blank'><IconBrandGithub className="w-6 h-6" /></Link>
-            <Link href="https://github.com/aushin19" target='_blank'><IconBrandLinkedin className="w-6 h-6" /></Link>
-            <Link href="https://github.com/aushin19" target='_blank'><IconBrandGooglePlay className="w-6 h-6" /></Link>
-            <Link href="https://github.com/aushin19" target='_blank'><IconBrandInstagram className="w-6 h-6" /></Link>
+            <Link href="https://www.linkedin.com/in/shivam-gaikwad/" target='_blank'><IconBrandLinkedin className="w-6 h-6" /></Link>
+            <Link href="https://play.google.com/store/apps/developer?id=Chartianz+%28Shivam+Gaikwad%29" target='_blank'><IconBrandGooglePlay className="w-6 h-6" /></Link>
         </div>
     </nav>
   )

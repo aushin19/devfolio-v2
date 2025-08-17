@@ -25,12 +25,16 @@ const ProjectCards = ({ item }) => {
             </CardContent>
             <CardFooter>
                 <div className='flex items-center gap-2 w-full'>
-                    <Link href={item.link} target='_blank'>
-                        <Button variant="default" size="sm" className='bg-white text-black border-none text-xs font-bold'><IconBrandGithub className='w-2 h-2' /> Source</Button>
-                    </Link>
-                    <Link href={item.link} target='_blank'>
-                        <Button variant="default" size="sm" className='bg-white text-black border-none text-xs font-bold'><IconWorld className='w-2 h-2' /> Website</Button>
-                    </Link>
+                    {item.github && (
+                        <Link href={item.github} target='_blank'>
+                            <Button variant="default" size="sm" className='bg-white text-black border-none text-xs font-bold'><IconBrandGithub className='w-2 h-2' /> Source</Button>
+                        </Link>
+                    )}
+                    {item.link && (
+                        <Link href={item.link} target='_blank'>
+                            <Button variant="default" size="sm" className='bg-white text-black border-none text-xs font-bold'><IconWorld className='w-2 h-2' /> Website</Button>
+                        </Link>
+                    )}
                 </div>
             </CardFooter>
         </Card>

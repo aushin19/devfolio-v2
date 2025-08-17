@@ -9,7 +9,7 @@ const items = [
         description:[
             "• On-site at Bajaj Finserv, I'm working as a Full Stack Engineer",
         ],
-        image: "/globe.svg",
+        image: "/bajaj-fin.png",
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ const items = [
             "• Created Device Booster Android App, enhancing gaming performance by 75% through optimized FPS and graphics.",
             "• Led two projects resulting in a 12% increase in company revenue.",
         ],
-        image: "/vercel.svg",
+        image: "/summer-code.png",
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const items = [
             "• Developed a competitive gaming platform with 10K+ downloads and $500+ MRR through live tournaments.",
             "• Created an AI-powered video summarization tool, reducing watch time by 80% and improving learning efficiency 3x."
         ],
-        image: "/next.svg",
+        image: "/summer-code.png",
     },
     {
         id: 4,
@@ -40,7 +40,7 @@ const items = [
             "• Designed and launched a Flutter app UI, successfully published on Google Play Store.",
             "• Developed a Custom API using Google APIs with near-zero investment."
         ],
-        image: "/next.svg",
+        image: "/skaitas.png",
     },
     {
         id: 5,
@@ -49,7 +49,7 @@ const items = [
         description:[
             "• Reduced time to render user buddy lists by 75% by implementing a prediction algorithm."
         ],
-        image: "/next.svg",
+        image: "/deepmid-tek.jpg",
     }
 ]
 

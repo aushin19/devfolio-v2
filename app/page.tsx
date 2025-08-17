@@ -5,6 +5,7 @@ import Education from "@/components/Education/Education";
 import Skills from "@/components/Skills/Skills";
 import Projects from "@/components/Projects/Projects";
 
+
 export default function Home() {
   return (
     <div className='flex flex-col items-center justify-center gap-2'>

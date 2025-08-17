@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -82,9 +82,9 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 
-  --font-sans: 'Poppins', sans-serif;
-  --font-serif: 'Poppins', sans-serif;
-  --font-mono: 'Poppins', sans-serif;
+  --font-sans: 'Figtree', sans-serif;
+  --font-serif: 'Figtree', sans-serif;
+  --font-mono: 'Figtree', sans-serif;
 }
 
 .dark {
@@ -120,9 +120,9 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
 
-  --font-sans: 'Poppins', sans-serif;
-  --font-serif: 'Poppins', sans-serif;
-  --font-mono: 'Poppins', sans-serif;
+  --font-sans: 'Figtree', sans-serif;
+  --font-serif: 'Figtree', sans-serif;
+  --font-mono: 'Figtree', sans-serif;
 }
 
 @layer base {

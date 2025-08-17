@@ -29,7 +29,7 @@ const WorkTimeLine = ({items}: {items: any[]}) => {
                             <img
                                 src={item.image}
                                 alt={item.title}
-                                className="size-6 rounded-full"
+                                className="size-6 rounded-full object-cover"
                             />
                         </TimelineIndicator>
                     </TimelineHeader>
