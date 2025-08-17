@@ -13,7 +13,7 @@ const Hero = () => {
                 className="absolute inset-0"
                 style={{
                     zIndex: 0,
-                    background: "radial-gradient(ellipse 80% 60% at 50% 0%, rgba(220, 40, 18, 0.20), transparent 90%), #000000",
+                    background: "radial-gradient(ellipse 80% 60% at 50% 0%, rgba(220, 40, 18, 0.30), transparent 90%), #000000",
                 }}
             />
             {/* Main Content Layer */}
@@ -25,7 +25,7 @@ const Hero = () => {
                     <p className='text-muted-foreground'>Laziness, but make it look like innovation</p>
                 </div>
             </div>
-            <div className='relative z-10 flex items-center justify-center gap-8'>
+            <div className='relative z-10 flex items-center justify-center gap-4'>
                 <Button size="sm">Github <IconBrandGithub className="w-4 h-4" /></Button>
                 <Button size="sm" variant="outline">Download CV <IconDownload className="w-4 h-4" /></Button>
             </div>
