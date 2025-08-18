@@ -12,6 +12,30 @@ const items = [
         tech: ["Java", "Google API", "Google App Script", "REST API", "JSOUP"],
         date: "Jan 2024 - Mar 2024",
         type: "Android App",
+    },
+    {
+        id: 2,
+        title: "Game Graphics Enhancement Tool",
+        description: <p className='text-muted-foreground text-sm'>
+            Improves gaming performance <span className='text-white font-bold'> by up to 25%</span> with smoother FPS and reduced lag, <span className='text-white font-bold underline'>powering 100k+ downloads, 50k+ monthly active users, and $1500+ recurring revenue.</span></p>,
+        image: "/gfx.webp",
+        link: "https://play.google.com/store/apps/details?id=com.hexasoft.gfx.tool",
+        github: null,
+        tech: ["Java", "Google API", "Google App Script", "REST API", "JSOUP", ".pak"],
+        date: "July 2024 - Aug 2024",
+        type: "Android App",
+    },
+    {
+        id: 3,
+        title: "Game Graphics Enhancement Tool",
+        description: <p className='text-muted-foreground text-sm'>
+            Boosts gaming performance <span className='text-white font-bold'>by up to 75%</span> with smoother FPS and <span className='text-white font-bold'>50% less lag</span>, <span className='text-white font-bold underline'>driving $800+ MRR with 100k+ downloads and 60k+ active users.</span></p>,
+        image: "/booster.webp",
+        link: "https://play.google.com/store/apps/details?id=com.hexasoft.game.booster.launcher",
+        github: null,
+        tech: ["Java", "Google API", "Google App Script", "REST API", "JSOUP", ".pak"],
+        date: "July 2024 - Aug 2024",
+        type: "Android App",
     }
 ]
 
