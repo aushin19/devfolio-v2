@@ -5,7 +5,7 @@ import { Button } from './ui/button'
 
 const Navbar = () => {
   return (
-    <nav className='flex mt-4 w-full md:max-w-7xl rounded-2xl mx-auto justify-between items-center p-4 fixed top-0 z-50 bg-background/30 backdrop-blur-sm'>
+    <nav className='flex mt-4 w-full md:max-w-7xl rounded-2xl mx-auto justify-between items-center p-4 fixed top-0 z-20 bg-background/30 backdrop-blur-xs'>
         <div className='flex items-center gap-2'>
           <IconBrandGitlab className='w-6 h-6 text-primary' />
           <h1 className='text-xl md:text-2xl font-bold'>DevFolio</h1>

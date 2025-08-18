@@ -67,7 +67,7 @@ const items = [
 
 const Skills = () => {
     return (
-        <div className='flex flex-col p-8 md:px-32 items-start justify-center gap-4 w-full'>
+        <div className='flex flex-col p-8  items-start justify-center gap-4 w-full'>
             <h2 className='text-4xl font-bold text-start'>Skills</h2>
             <div className='md:p-4 flex items-start justify-start flex-wrap gap-2 w-full'>
                 {items.map(item => {

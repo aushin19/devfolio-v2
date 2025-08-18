@@ -9,12 +9,14 @@ import Projects from "@/components/Projects/Projects";
 export default function Home() {
   return (
     <div className='flex flex-col items-center justify-center gap-2'>
-      <Hero/>
-      <About/>
-      <Work/>
-      <Education/>
-      <Skills/>
-      <Projects/>
+      <Hero />
+      <div className="flex flex-col md:px-56 items-center justify-center gap-2">
+        <About />
+        <Work />
+        <Education />
+        <Skills />
+        <Projects />
+      </div>
     </div>
   );
 }

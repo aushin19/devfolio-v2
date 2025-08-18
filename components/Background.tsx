@@ -1,19 +1,34 @@
-import React from 'react'
+import React from 'react';
 
-const Background = () => {
-    return (
-        <div className="min-h-screen w-full relative bg-black">
-    {/* Copper Forge Background with Top Glow */}
-    <div
-      className="absolute inset-0 z-0"
-      style={{
-        background: "radial-gradient(ellipse 80% 60% at 50% 0%, rgba(249, 115, 22, 0.25), transparent 70%), #000000",
-      }}
-    />
-  
-    {/* Your Content/Components */}
-  </div>
-    )
+interface BackgroundProps {
+  children: React.ReactNode;
+  className?: string;
 }
 
-export default Background
+const Background: React.FC<BackgroundProps> = ({ children, className = "" }) => {
+  return (
+    <div className={`w-full bg-background relative ${className}`}>
+      {/* Diagonal Fade Grid Background - Top Left */}
+      <div
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: `
+            linear-gradient(to right, #404040 1px, transparent 1px),
+            linear-gradient(to bottom, #404040 1px, transparent 1px)
+          `,
+          backgroundSize: "32px 32px",
+          WebkitMaskImage:
+            "radial-gradient(ellipse 80% 80% at 0% 0%, #000 50%, transparent 90%)",
+          maskImage:
+            "radial-gradient(ellipse 80% 80% at 0% 0%, #000 50%, transparent 90%)",
+        }}
+      />
+      {/* Your Content/Components */}
+      <div className="relative z-10">
+        {children}
+      </div>
+    </div>
+  );
+};
+
+export default Background;

@@ -34,7 +34,7 @@ const items = [
 
 const Education = () => {
     return (
-        <div className='flex flex-col p-8 md:px-32 items-start justify-center gap-4 w-full'>
+        <div className='flex flex-col p-8  items-start justify-center gap-4 w-full'>
             <h2 className='text-4xl font-bold text-start'>Education</h2>
             <div className='md:p-4 flex items-start justify-center flex-col gap-4 w-full'>
                 <EducationTimeLine items={items} />
